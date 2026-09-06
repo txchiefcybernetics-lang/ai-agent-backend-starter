@@ -1,5 +1,7 @@
 # TX AI Agent API Backend
-
+Global host IP
+root: admin
+tx loop : udp/tdp
 host name: example.com
   forward ip is expandable : 192.168.0.101✳️
       subnet: 000.000.000.000
