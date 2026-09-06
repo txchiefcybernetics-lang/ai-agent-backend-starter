@@ -1,4 +1,4 @@
-# AI Agent API Backend
+# TX AI Agent API Backend
 
 A backend for building AI-powered applications using [Encore.go](https://encore.dev) and Claude.
 
