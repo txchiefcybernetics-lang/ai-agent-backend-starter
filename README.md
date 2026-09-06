@@ -1,5 +1,9 @@
 # TX AI Agent API Backend
 
+host name: example.com
+  forward ip is expandable : 192.168.0.101✳️
+      subnet: 000.000.000.000
+Port: 443
 A backend for building AI-powered applications using [Encore.go](https://encore.dev) and Claude.
 
 ## Architecture
