@@ -90,8 +90,8 @@ Deploy your application to a free staging environment in Encore's development cl
 
 ```bash
 git add -A .
-git commit -m 'Commit message'
-git push encore
+git commit -m 'Update TradeXpress core routing and proxy config'
+git push origin main
 ```
 
 You can also open your app in the [Cloud Dashboard](https://app.encore.dev) to integrate with GitHub, or connect your AWS/GCP account, enabling Encore to automatically handle cloud deployments for you.
