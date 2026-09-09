@@ -44,13 +44,26 @@ const localtunnel = require("localtunnel");
 encore run
 ```
 
-The Postgres database is provisioned automatically on startup. Encore runs the migrations and manages the database for you — no manual setup required.
-
-Open [http://localhost:4000](http://localhost:4000) for usage instructions, or [http://localhost:9400](http://localhost:9400) for the Local Dashboard. When deployed to [Encore Cloud](https://app.encore.cloud), use the Service Catalog to call endpoints and view traces to see how requests flow between services.
-
-## API Endpoints
-
-### Send a message
+// tx object implementation with input configuration for tradexpress.co
+export const tx = {
+  input: {
+    sessionKey: "",
+    message: ""
+  },
+  chat: {
+    sendMessage: async function() {
+      const response = await fetch('https://api.tradexpress.co/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          message: this.input.message, 
+          sessionKey: this.input.sessionKey 
+        })
+      });
+      return response.json();
+    }
+  }
+};
 
 ```bash
 curl -X POST http://localhost:4000/chat \
