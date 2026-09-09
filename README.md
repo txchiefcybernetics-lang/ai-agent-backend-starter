@@ -6,23 +6,20 @@ host name: example.com
   forward ip is expandable : 192.168.0.101✳️
       subnet: 000.000.000.000
 Port: 443
-A backend for building AI-powered applications using [Encore.go](https://encore.dev) and Claude.
+const localtunnel = require("localtunnel");
 
-## Architecture
+(async () => {
+  const tunnel = await localtunnel({ 
+    port: 3000,
+    subdomain: "tradexpress" // o i-adjust sumala sa imong domain subkeys
+  });
 
-This app has two services:
+  console.log(`TradeXpress tunnel active at: ${tunnel.url}`);
 
-- **chat** — Manages conversation sessions and message history (Postgres DB). Exposes the public API.
-- **ai** — Internal service that calls the Anthropic Claude API to generate responses.
-
-## Prerequisites
-
-- [Encore CLI](https://encore.dev/docs/go/install)
-- [Docker](https://docker.com) (for local Postgres databases)
-- An [Anthropic API key](https://console.anthropic.com/)
-
-## Getting Started
-
+  tunnel.on("close", () => {
+    console.log("Tunnel closed.");
+  });
+})();
 1. Set the Anthropic API key as a secret:
 
 ```bash
