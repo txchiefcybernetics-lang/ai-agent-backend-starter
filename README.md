@@ -26,7 +26,19 @@ This app has two services:
 1. Set the Anthropic API key as a secret:
 
 ```bash
-encore secret set --type dev,local,pr,prod AnthropicAPIKey
+const localtunnel = require("localtunnel");
+
+(async () => {
+  const tunnel = await localtunnel({ port: 3000 });
+
+  // the assigned public url for your tunnel
+  // i.e. https://abcdefgjhij.localtunnel.me
+  tunnel.url;
+
+  tunnel.on("close", () => {
+    // tunnels are closed
+  });
+})();
 ```
 
 2. Run the app:
