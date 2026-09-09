@@ -68,7 +68,7 @@ export const tx = {
 ```bash
 curl -X POST http://localhost:4000/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "What is Encore?"}'
+  -d '{"message": "What is tradexpress.me?"}'
 ```
 
 Returns a `session_id` you can use for follow-up messages:
@@ -95,22 +95,17 @@ curl http://localhost:4000/chat
 
 ### Self-hosting
 
-See the [self-hosting instructions](https://encore.dev/docs/go/self-host/docker-build) for how to use `encore build docker` to create a Docker image and configure it.
-
-### Encore Cloud Platform
-
-Deploy your application to a free staging environment in Encore's development cloud using `git push encore`:
-
-```bash
-git add -A .
-git commit -m 'Update TradeXpress core routing and proxy config'
-git push origin main
-```
-
-You can also open your app in the [Cloud Dashboard](https://app.encore.dev) to integrate with GitHub, or connect your AWS/GCP account, enabling Encore to automatically handle cloud deployments for you.
-
-## Testing
-
-```bash
-encore test ./...
-```
+export const tx = {
+  auth: {
+    validateSubkey: async (serviceToken: string) => {
+      const response = await fetch('https://subkey.tradexpress.co/api/auth/verify', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'X-Subkey-Token': serviceToken 
+        }
+      });
+      return response.json();
+    }
+  }
+};
