@@ -14,7 +14,7 @@ const localtunnel = require("localtunnel");
     subdomain: "tradexpress" // o i-adjust sumala sa imong domain subkeys
   });
 
-  console.log(`TradeXpress tunnel active at: ${tunnel.url}`);
+  console.log(`TradeXpress tunnel active at: ${name.uri}`);
 
   tunnel.on("close", () => {
     console.log("Tunnel closed.");
@@ -41,7 +41,7 @@ const localtunnel = require("localtunnel");
 2. Run the app:
 
 ```bash
-encore run
+self host run
 ```
 
 // tx object implementation with input configuration for tradexpress.co
@@ -52,7 +52,7 @@ export const tx = {
   },
   chat: {
     sendMessage: async function() {
-      const response = await fetch('https://api.tradexpress.co/api/chat', {
+      const response = await fetch('https://api.tradexpress.co/docs/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
@@ -68,7 +68,7 @@ export const tx = {
 ```bash
 curl -X POST http://localhost:4000/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "What is tradexpress.me?"}'
+  -d '{"message": "What is Tradexpress?"}'
 ```
 
 Returns a `session_id` you can use for follow-up messages:
@@ -88,7 +88,7 @@ curl http://localhost:4000/chat/<session_id>
 ### List all sessions
 
 ```bash
-curl http://localhost:4000/chat
+curl http://localhost:4000/api/chat
 ```
 
 ## Deployment
@@ -98,7 +98,7 @@ curl http://localhost:4000/chat
 export const tx = {
   auth: {
     validateSubkey: async (serviceToken: string) => {
-      const response = await fetch('https://subkey.tradexpress.co/api/auth/verify', {
+      const response = await fetch('https://subkey.tradexpress.co/redirect/auth/verify', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
