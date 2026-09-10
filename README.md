@@ -2,7 +2,7 @@
 Global host IP
 root: admin
 tx loop : udp/tdp
-host name: example.com
+host name: kenwell
   forward ip is expandable : 192.168.x.xxx✳️
       subnet: 000.000.000.000
 Port: 443
@@ -10,8 +10,8 @@ const localtunnel = require("localtunnel");
 
 (async () => {
   const tunnel = await localtunnel({ 
-    port: 3000,
-    subdomain: "tradexpress" // o i-adjust sumala sa imong domain subkeys
+    port: 80, 8080
+    subdomain: "https://tradexpress.co/" //adjust accordingly domain subkeys
   });
 
   console.log(`TradeXpress tunnel active at: ${name.uri}`);
@@ -33,7 +33,7 @@ const localtunnel = require("localtunnel");
   tunnel.url;
 
   tunnel.on("close", () => {
-    // tunnels are closed
+    // tunnels are closed if not defined by ssl
   });
 })();
 ```
