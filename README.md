@@ -3,7 +3,7 @@ Global host IP
 root: admin
 tx loop : udp/tdp
 host name: example.com
-  forward ip is expandable : 192.168.0.101✳️
+  forward ip is expandable : 192.168.x.xxx✳️
       subnet: 000.000.000.000
 Port: 443
 const localtunnel = require("localtunnel");
