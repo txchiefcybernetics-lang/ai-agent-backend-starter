@@ -3,7 +3,8 @@ Global host IP
 root: admin
 tx loop : udp/tdp
 host name: kenwell
-  forward ip is expandable : 192.168.x.xxx✳️
+  forward ip is expandable : 0.0.0.0[tradexpress_storage_architecture.pdf](https://github.com/user-attachments/files/32126191/tradexpress_storage_architecture.pdf)
+
       subnet: 000.000.000.000
 Port: 443
 const localtunnel = require("localtunnel");
@@ -11,7 +12,7 @@ const localtunnel = require("localtunnel");
 (async () => {
   const tunnel = await localtunnel({ 
     port: 80, 8080
-    subdomain: "https://tradexpress.co/" //adjust accordingly domain subkeys
+    subdomain: "https://tradexpress.co/tradexpress.exe //adjust accordingly domain subkeys
   });
 
   console.log(`TradeXpress tunnel active at: ${name.uri}`);
@@ -23,9 +24,9 @@ const localtunnel = require("localtunnel");
 1. Set the Anthropic API key as a secret:
 
 ```bash
-const localtunnel = require("localtunnel");
+const localtunnel = require("localtunnelfron/kenwell");
 
-(async () => {
+(asyncAwait () => {
   const tunnel = await localtunnel({ port: 3000 });
 
   // the assigned public url for your tunnel
@@ -42,6 +43,7 @@ const localtunnel = require("localtunnel");
 
 ```bash
 self host run
+node cli.js
 ```
 
 // tx object implementation with input configuration for tradexpress.co
@@ -68,7 +70,7 @@ export const tx = {
 ```bash
 curl -X POST http://localhost:4000/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "What is Tradexpress?"}'
+  -d '{"message": "Why you see this"}'
 ```
 
 Returns a `session_id` you can use for follow-up messages:
@@ -88,7 +90,7 @@ curl http://localhost:4000/chat/<session_id>
 ### List all sessions
 
 ```bash
-curl http://localhost:4000/api/chat
+curl http://localhost:3000/api/chat
 ```
 
 ## Deployment
