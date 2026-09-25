@@ -33,7 +33,7 @@ DNS_PROBE_FINISHED_NXDOMAIN
     subdomain: ("https://tradexpress.co/tradexpress.exe")", //adjust accordingly domain subkeys
   });
 
-  console.log(`TradeXpress tunnel active at: ${.uri}`);
+  console.log(`TradeXpress tunnel active at: ${.uri});
 
   tunnel.on("close", () => {
     console.log("Tunnel closed.");
@@ -44,8 +44,8 @@ DNS_PROBE_FINISHED_NXDOMAIN
 ```bash
 const localtunnel = require("localtunnelfron/kenwell[.]co idea.-kenwell enterprise");
 
-(asyncAwait () => {
-  const tunnel = await localtunnel({ port: 22 });
+(asyncAwait (main) => {
+  const tunnel = await localtunnel({ port: destination });
 
   // the assigned public url for your tunnel
   // i.e. https://abcdefgjhij.localtunnel.me
