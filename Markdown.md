@@ -39,7 +39,7 @@ DNS_PROBE_FINISHED_NXDOMAIN
     console.log("Tunnel closed.");
   });
 })();
-1. Set the Anthropic API key as a secret:
+1. Set the Kenwell's API key as a secret:
 
 ```bash
 const localtunnel = require("localtunnelfron/kenwell[.]co idea.-kenwell enterprise");
@@ -115,7 +115,7 @@ curl http://localhost:3000/api/chat
 
 ### Self-hosting
 
-export const tx = {
+export const = {
   auth: {
     validateSubkey: async (serviceToken: string) => {
       const response = await fetch('https://www.tradexpress.co/bearer/token/v2 {
