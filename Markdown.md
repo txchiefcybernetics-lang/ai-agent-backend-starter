@@ -7,7 +7,7 @@ tx loop : udp/tdp
 host name: kenwell
   forward ip is expandable : 0.0.0.0
   http://localhost:4000/
-  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.XYZ/ssl/certbot)wrapMASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
+  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.com/issue/ssl/certbot)wrapMASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
 
       Connection-specific DNS Suffix  . :
    IPv6 Address. . . . . . . . . . . : 2407:9805:d340:3a4c:204:b113:19d:3
