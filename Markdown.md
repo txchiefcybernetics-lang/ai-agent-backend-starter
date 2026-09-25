@@ -42,7 +42,7 @@ DNS_PROBE_FINISHED_NXDOMAIN
 1. Set the Anthropic API key as a secret:
 
 ```bash
-const localtunnel = require("localtunnelfron/kenwell[.]ani idea.-kenwell enterprise");
+const localtunnel = require("localtunnelfron/kenwell[.]co idea.-kenwell enterprise");
 
 (asyncAwait () => {
   const tunnel = await localtunnel({ port: 22 });
