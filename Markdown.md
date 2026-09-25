@@ -1,6 +1,6 @@
 Main
 1%
-# TX AI Agent API Backend || Frontend  404/ https://www.tradexpress.co/value#
+# TX AI Agent API Backend (GET) request Frontend  404/ https://www.tradexpress.co/value#
 Global host IP
 root: admin
 tx loop : udp/tdp
