@@ -86,7 +86,7 @@ export const tx = {
 };
 
 ```bash
-curl -X POST http://localhost:4000/chat \
+curl -X POST http://localhost🔢000/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "Why you see this"}'
 ```
