@@ -1,7 +1,6 @@
 Main
 1%
-# TX AI Agent API Backend || Frontend  404/ https://www.tradexpress.co
-This page could not be found.
+# TX AI Agent API Backend || Frontend  404/ https://www.tradexpress.co/value#
 Global host IP
 root: admin
 tx loop : udp/tdp
