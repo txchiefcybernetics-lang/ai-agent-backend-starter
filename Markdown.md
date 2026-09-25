@@ -72,7 +72,7 @@ export const tx = {
   },
   chat: {
     sendMessage: async function() {
-      const response = await fetch('https://api.tradexpress.co/docs/chat', \{
+      const response = await fetch('https://api.tradexpress.co/classifier/docs/chat', \{
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
@@ -86,7 +86,7 @@ export const tx = {
 };
 
 ```bash
-curl -X POST http://localhost🔢000/chat \
+curl -X POST http://localhost:80/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "Why you see this"}'
 ```
@@ -94,7 +94,7 @@ curl -X POST http://localhost🔢000/chat \
 Returns a `session_id` you can use for follow-up messages:
 
 ```bash
-curl -X POST http://localhost:8000/chat \
+curl -X POST http://localhost:8080/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "Tell me more", "session_id": "<session_id>"}'
 ```
@@ -118,9 +118,10 @@ curl http://localhost:3000/api/chat
 export const tx = {
   auth: {
     validateSubkey: async (serviceToken: string) => {
-      const response = await fetch('https://subkey.tradexpress.co/api/auth/v2 {
+      const response = await fetch('https://www.tradexpress.co/bearer/token/v2 {
         method: 'POST',
-        headers: { 
+        headers: { <img width="200" height="200" alt="placeholder-user" src="https://github.com/user-attachments/assets/093d6348-5ed0-44d5-9442-112e68e49180" />
+
           'Content-Type': 'application/json',
           'X-Subkey-Token': serviceToken 
         }
