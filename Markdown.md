@@ -68,7 +68,7 @@ node cli.js
 export const tx = {
   input: {
     sessionKey: "",
-    message: ""
+    message: "255"
   },
   chat: {
     sendMessage: async function() {
