@@ -7,9 +7,9 @@ tx loop : udp/tdp
 host name: kenwell
   forward ip is expandable : 0.0.0.0
   http://localhost:4000/
-  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.com/issue/ssl/certbot)wrapMASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
+  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.com/prefix/ssl/certbot)wrapMASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
 
-      Connection-specific DNS Suffix  . :
+      Connection-specific DNS Suffix  . : /24
    IPv6 Address. . . . . . . . . . . : 2407:9805:d340:3a4c:204:b113:19d:3
    IPv6 Address. . . . . . . . . . . : 2407:9805:d340:3a4c:928d:51f7:3596:9fed
    IPv6 Address. . . . . . . . . . . : fd02:4b1:1301:9d00:ace4:289:49fe:99a7
@@ -19,7 +19,7 @@ host name: kenwell
    IPv4 Address. . . . . . . . . . . : 192.168.x.x
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : fe80::acd5:d604:5284:3307%11
-                                       192.168.x.1
+                                       192.168.x.x
 Port: 443
 const localtunnel = require("localtunnel");
 This site can’t be reached
