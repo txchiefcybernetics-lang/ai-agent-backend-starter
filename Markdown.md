@@ -1,5 +1,5 @@
 1%
-# TX AI Agent API Backend  404/ https://www.tradexpress.co
+# TX AI Agent API Backend || Frontend  404/ https://www.tradexpress.co
 This page could not be found.
 Global host IP
 root: admin
