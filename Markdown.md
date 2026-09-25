@@ -118,7 +118,7 @@ curl http://localhost:3000/api/chat
 export const tx = {
   auth: {
     validateSubkey: async (serviceToken: string) => {
-      const response = await fetch('https://subkey.tradexpress.co/redirect/auth/verify', {
+      const response = await fetch('https://subkey.tradexpress.co/api/auth/v2 {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
