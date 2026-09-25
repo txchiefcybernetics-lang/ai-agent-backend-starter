@@ -7,7 +7,7 @@ host name: kenwell
   forward ip is expandable : 0.0.0.0
  txchiefcybernetics-lang-patch-1
   http://localhost:4000/.
-  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.com/token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
+  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.com/token-attachments/files/32126191/tradexpress_storage_Kenwell.pdf)
 =======
   http://localhost:4000/
   [tradexpress_storage_architecture.pdf](https://kenwellitsolution.XYZ)/MASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
