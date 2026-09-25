@@ -20,7 +20,11 @@ host name: kenwell
                                        192.168.2.1
 Port: 443
 const localtunnel = require("localtunnel");
+This site can’t be reached
+Check if there is a typo in subkey.tradexpress.co.
 
+If spelling is correct, try running Windows Network Diagnostics.
+DNS_PROBE_FINISHED_NXDOMAIN
 (async () => {
   const tunnel = await localtunnel({ 
     port: 80, 8080
@@ -36,7 +40,7 @@ const localtunnel = require("localtunnel");
 1. Set the Anthropic API key as a secret:
 
 ```bash
-const localtunnel = require("localtunnelfron/kenwell");
+const localtunnel = require("localtunnelfron/kenwell[.]ani idea.-kenwell enterprise");
 
 (asyncAwait () => {
   const tunnel = await localtunnel({ port: 22 });
