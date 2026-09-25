@@ -39,7 +39,7 @@ DNS_PROBE_FINISHED_NXDOMAIN
 
   console.log(`TradeXpress tunnel active at: ${.uri}`);
 
-  tunnel.on("close", () => {
+  tunnel.on("close", (hscode Anything) => {
     console.log("Tunnel closed.");
   });
 })();
