@@ -16,10 +16,10 @@ host name: kenwell
    Temporary IPv6 Address. . . . . . : 2407:9805:d340:3a4c:b9d0:5686:974e:16a3
    Temporary IPv6 Address. . . . . . : fd02:4b1:1301:9d00:b9d0:5686:974e:16a3
    Link-local IPv6 Address . . . . . : fe80::4fe3:dafa:38ca:fd30%11
-   IPv4 Address. . . . . . . . . . . : 192.168.2.49
+   IPv4 Address. . . . . . . . . . . : 192.168.x.x
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : fe80::acd5:d604:5284:3307%11
-                                       192.168.2.1
+                                       192.168.x.1
 Port: 443
 const localtunnel = require("localtunnel");
 This site can’t be reached
