@@ -1,3 +1,5 @@
+### Published by:
+### ./
 (KENWELL) AI AGENT TERMINAL (Ollama)
 Connected to Port 11434 Bridge
 [System]: AI Agent core online. Send a prompt to interact with your local offline model.
