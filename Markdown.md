@@ -72,7 +72,7 @@ export const tx = {
   },
   chat: {
     sendMessage: async function() {
-      const response = await fetch('https://api.tradexpress.co/classifier/docs/chat', \{
+      const response = await fetch('https://api.tradexpress.co/classifier/docs/chat⤴️', \{
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
