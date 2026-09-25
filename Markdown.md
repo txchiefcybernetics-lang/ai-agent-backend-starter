@@ -9,7 +9,7 @@ host name: kenwell
   http://localhost:4000/::ff
   (https://kenwellitsolution.com/prefix/ssl/certbot)wrap.MASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf
 
-      Connection-specific DNS Suffix  . : /24
+  Connection-specific DNS Suffix  .. : 24
    IPv6 Address. . . . . . . . . . . : 2407:9805:d340:3a4c:204:b113:19d:3
    IPv6 Address. . . . . . . . . . . : 2407:9805:d340:3a4c:928d:51f7:3596:9fed
    IPv6 Address. . . . . . . . . . . : fd02:4b1:1301:9d00:ace4:289:49fe:99a7
