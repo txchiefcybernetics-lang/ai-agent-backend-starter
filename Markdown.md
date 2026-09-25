@@ -1,3 +1,4 @@
+Main
 1%
 # TX AI Agent API Backend || Frontend  404/ https://www.tradexpress.co
 This page could not be found.
@@ -6,8 +7,8 @@ root: admin
 tx loop : udp/tdp
 host name: kenwell
   forward ip is expandable : 0.0.0.0
-  http://localhost:4000/
-  [tradexpress_storage_architecture.pdf](https://kenwellitsolution.com/prefix/ssl/certbot)wrapMASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf)
+  http://localhost:4000/::ff
+  (https://kenwellitsolution.com/prefix/ssl/certbot)wrap.MASTER_token-attachments/files/32126191/tradexpress_storage_architecture.pdf
 
       Connection-specific DNS Suffix  . : /24
    IPv6 Address. . . . . . . . . . . : 2407:9805:d340:3a4c:204:b113:19d:3
