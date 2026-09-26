@@ -1,4 +1,4 @@
-### Published by:-[]
+### Published by kenwell find the robot:-[]
 ### Get 200 ok
 (KENWELL) AI AGENT TERMINAL (Ollama)
 Connected to Port 11434 Bridge
