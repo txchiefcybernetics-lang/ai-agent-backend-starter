@@ -1,4 +1,4 @@
-### Published by kenwell find the robot:-[]
+### Published by kenwell find the robot:-> {...}
 ### Get 200 ok
 sudo-name-save
 (KENWELL) AI AGENT TERMINAL (Ollama)
