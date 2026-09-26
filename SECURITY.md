@@ -7,6 +7,9 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
+FAQ
+How should I deal with revisions in the 0.y.z initial development phase?
+
 | Version | Supported          |
 | ------- | ------------------ |
 | 5.1.x   | :white_check_mark: |
